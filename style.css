@@ -5,6 +5,10 @@
     transition: 0.1s;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     height: 100vh;
     display: flex;
