@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.container {
+    scroll-snap-type: y mandatory !important;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+.atila {
+    background-color: red;
+}
+
+.marco {
+    background-color: rgb(29, 27, 27);
+}
+
+.milton {
+    background-color: rgb(17, 148, 39);
+}
+
+.okusindja {
+    background-color: darkcyan;
+}
